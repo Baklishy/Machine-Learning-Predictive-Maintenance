@@ -1,0 +1,140 @@
+:root {
+  --main-backgroundcolor: #542cc6;
+  --second-backgroundcolor: #f65797;
+  --main-color: White;
+  --main-font: Poppins;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav a {
+  color: var(--main-backgroundcolor);
+}
+
+.navbar-brand img,
+footer img,
+.form-content img,
+header img {
+  width: 150px;
+}
+footer img{
+  width: 175px;
+}
+.footer-logo p{
+  color:var(--main-backgroundcolor);
+} 
+footer li a{
+color: var(--main-backgroundcolor);
+}
+footer li span{
+color: var(--main-backgroundcolor);
+}
+
+.main-body {
+  font-family: var(--main-font);
+}
+
+button {
+  background-color: var(--main-backgroundcolor);
+  color: var(--main-color);
+  border-radius: 0.5rem;
+}
+
+h1,
+.pink-section h2,
+.pink2-section h2 {
+  font-size: 3rem;
+  font-family: var(--main-font);
+
+}
+
+.pink-section h2,
+.pink2-section h2 {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width:768px) {
+
+  h1,
+  .pink-section h2,
+  .pink2-section h2 {
+    font-size: 2rem;
+  }
+}
+
+header img {
+  height: 400px;
+  /* background-color: rgba(84, 44, 198, 0.2); */
+  /* border-radius: 2rem; */
+  transition: transform 2s;
+}
+
+.pink-section img:hover,
+.pink2-section img:hover {
+  transition: transform 2s;
+}
+
+header img:hover,
+.pink-section img:hover,
+.pink2-section img:hover {
+  transform: scale(1.1);
+}
+
+ .pink-section {
+  background-color: rgba(246, 87, 151, 0.2);
+  border-radius: 2rem;
+}
+
+.pink2-section {
+  background-color: rgba(84, 44, 198, 0.2);
+  border-radius: 2rem;
+}
+
+.pink-section h6 {
+  color: var(--second-backgroundcolor);
+  font-size: xx-large;
+}
+
+.pink2-section h6 {
+  color: var(--main-backgroundcolor);
+  font-size: xx-large;
+}
+
+/*
+ form 
+ */
+.body-form {
+  /* background-color: #f7f3ff; */
+  font-family: var(--main-font);
+}
+.form-content{
+  background-color: #f7f3ff;
+  padding-bottom: 230px;
+}
+input[placeholder] {
+  border: 1px solid var(--main-backgroundcolor);
+  padding: 10px;
+}
+
+.custom-form {
+  padding: 100px;
+}
+
+.custom-form button{
+  background-color: #5c27ec;
+}
+
+.form-content h2 {
+  color: #472a99;
+  font-size: 2.5rem;
+
+}
+
+.form-content li span {
+  color: #5c27ec;
+  font-size: 2rem;
+}
+
+.form-content li {
+  color: #472a99;
+}
+/* end */
